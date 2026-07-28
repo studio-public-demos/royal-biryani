@@ -1,6 +1,6 @@
 # Royal Biryani — Authentic Dum Biryani Restaurant Landing Page
 
-[![Royal Biryani](assets/social-preview.png)](https://studio-public-demos.github.io/royal-biryani/)
+[![Royal Biryani](assets/social-preview-v2.png)](https://studio-public-demos.github.io/royal-biryani/)
 
 **[▶ Open Live Demo](https://studio-public-demos.github.io/royal-biryani/)**
 
