@@ -13,6 +13,8 @@
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 80px;
+    -webkit-overflow-scrolling: touch;
   }
 
   body {
@@ -21,13 +23,24 @@
     color: #fff;
     overflow-x: hidden;
     min-height: 100svh;
+    min-height: 100dvh;
     min-height: -webkit-fill-available;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior-y: none;
   }
 
   input, textarea, select, button {
     font-size: 16px;
     -webkit-appearance: none;
     border-radius: 0;
+    touch-action: manipulation;
+  }
+
+  @media (max-width: 639px) {
+    html {
+      scroll-padding-top: 70px;
+    }
   }
 
   ::-webkit-scrollbar {
